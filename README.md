@@ -83,4 +83,4 @@ console.log()
 # Staircase
 
 
-# Mini-Max Sum
+# Min-Max Sum
