@@ -82,5 +82,53 @@ console.log()
 
 # Staircase
 
+```js
+     #
+    ##
+   ###
+  ####
+ #####
+######
+
+1,2,3,4 ... n
+
+i = 1 # 
+i = 2 ##
+i = 3 ###
+i = 4 ####
+
+for ( var i=1; i <= n; i++) {
+     for (var j=1; j <= i; j++) {
+          console.log('#')
+     }
+     console.log('\n')
+}
+```
+i    j    n    output
+1    1    4    # \n
+----
+2    1    4    #
+2    2    4    ## \n
+----
+3    1    4    #
+3    2    4    ##
+3    3    4    ### \n
+----
+4    1    4    #
+4    2    4    ##
+4    3    4    ###
+4    4    4    #### \n
+
+
 
 # Min-Max Sum
+n = arr.length = 4
+     0 1 2 3 4
+arr [1,3,5,7,9]
+
+sum1 = sumar los numeros 0, 1, 2, 3 (no me sume el último) i = (n-1) = 3
+sum1 = sumar los numeros 1, 2, 3, 4 (no me sume el primero) i = 0
+
+
+# Birthday Cake Candles
+
