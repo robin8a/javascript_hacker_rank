@@ -132,3 +132,24 @@ sum1 = sumar los numeros 1, 2, 3, 4 (no me sume el primero) i = 0
 
 # Birthday Cake Candles
 
+```js
+               0 1 2 3 5 6 7 8
+var candles = [4,4,1,3,5,4,6,6]
+var max = 0
+var maxCount = 0
+
+for ... candles
+     if (candles[i] > max) {
+          max = candles[i]
+          maxCount = 0 
+          maxCount++
+     }
+     else if (candles[i] === max) {
+          maxCount++
+     }
+
+```
+
+# Grading Students
+
+# Apple and Orange
