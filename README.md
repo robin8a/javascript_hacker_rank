@@ -155,8 +155,10 @@ for ... candles
 ```
 
 # Grading Students
+[Solution](./00_problems/GradingStudents.js)
 
 # Apple and Orange
+[Solution](./00_problems/AppleAndOrange.js)
 
 # Number Line Jumps
 
