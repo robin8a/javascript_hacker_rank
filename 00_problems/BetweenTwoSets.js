@@ -74,10 +74,78 @@ function lowerCommonMultiple(arr) {
 
 function maxArray(arr) {
     var max = 0
-    for(var i=0; i < array.length; i++){
+    for(var i=0; i < arr.length; i++){
         if (arr[i] > max) {
             max = arr[i]
         }
     }
     return max
 }
+
+
+// console.log('Max Array: ', maxArray([2,6]))
+
+console.log('LCM [2,6]: ', lowerCommonMultiple([2,6]))
+console.log('LCM [4,6]: ', lowerCommonMultiple([4,6]))
+
+
+// https://www.matesfacil.com/ESO/numeros/MCD/maximo-comun-divisor-MCD-definicion-ejemplos-ejercicios-resueltos-test-problemas-descomposicion-primos.html
+// GCD
+
+//Primos: 2, 3, 5, 7, 11, 13, 17...n
+
+// 24  |   2
+// 12  |   2
+// 6   |   2
+// 3   |   3
+// 1
+
+// 24 = 2*2*2*3 = (2^3)*(3) = (2^2)*(2)*(3) 
+
+// 36  |   2
+// 18  |   2
+// 9   |   3
+// 3   |   3
+// 1
+
+// 36 = 2*2*3*3 = (2^2)*(3^2) = (2^2)*(3)*(3)
+
+// GCD = (2^2)*(3) = 4*3 = 12
+
+
+
+// 180 |   2
+// 90  |   2
+// 45  |   3
+// 15  |   3
+// 5   |   5
+// 1
+
+// 180 = 2*2*3*3*5
+
+
+
+// 2 = 4 = 8 = 16 = 32 = 64 = 128 = 256 = 512 = 1024 
+// 2^1 = 2^2 = 2^3 
+
+// 324 |   2
+// 162 |   2
+// 81  |   2
+// 27  |   3
+// 9   |   3
+// 3   |   3
+// 1        
+
+// 2*2*2*3*3*3
+
+
+// GCD = 2*2*3*3 = 4*9 = 36
+
+// Algoritmos
+// 1.   Numeros primos entre 2 y maximo arreglo
+// 2.   1 hasta el numero primo mayor hasta max del punto 1
+// 3.   Dividos el valor de cada número del arreglo por los números hasta llegar a 1
+// 3.1  Almacenamos cada numero primo en un arreglo
+// 3.2  Una funcion que me saque los numero primos comunes en el arreglo del 3.1 y lo almacenas en un arreglo
+// 3.3  Una funcion que multiplique los numeros del arreglo 3.3
+
