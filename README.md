@@ -161,8 +161,9 @@ for ... candles
 [Solution](./00_problems/AppleAndOrange.js)
 
 # Number Line Jumps
+[Solution](00_problems/NumberLineJumps.js)
 
 # Between Two Sets
-
+[Solution](00_problems/BetweenTwoSets.js)
 
 # Forming a Magic Square
