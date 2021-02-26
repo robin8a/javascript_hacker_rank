@@ -151,7 +151,6 @@ console.log('LCM [4,6]: ', lowerCommonMultiple([4,6]))
 // 3.3  Una funcion que multiplique los numeros del arreglo 3.3
 
 
-
 // Metodo 1
 
 function minArray(arr) {
